@@ -211,12 +211,15 @@ font-weight:bold;
     background:linear-gradient(to bottom,#9dbff1 5%,#DEEBFF 100%);
     color:#0065fc;
     border: 1px solid rgb(124, 189, 241);
+    border-left:none;
 }
 .filtres div:active
 {
     background: linear-gradient(to top,#DEEBFF 15%,#9dbff1 100%);
     color:grey;
     border:1px solid black;
+    border-left:none;
+    
 }
 
 .filtres i
@@ -235,3 +238,35 @@ font-weight:bold;
     margin-right:1em;
 
 }
+/*cercle info*/
+.info
+{
+    display:flex;
+    flex-direction:row;
+    margin:auto;
+ margin-top:2em;
+
+    
+    
+}
+
+.info i
+{
+    display:flex;
+    border:2px solid#d9d9d9;
+    height:1.5em;
+    width:1.5em;
+    border-radius: 100%;
+    color:#0065fc;
+    align-items: center;
+    justify-content:center;
+    margin-top:0.75em
+    
+}
+.info h3
+{
+    margin-left:1.5em;
+    
+    
+}
+

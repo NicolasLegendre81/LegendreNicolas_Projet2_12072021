@@ -1,16 +1,14 @@
-font-face {
-    font-family: "ralewayregular";
-    src: url('raleway-regular-webfont.woff2') format('woff2'),
-         url('raleway-regular-webfont.woff') format('woff');
-}
+
+
 body{
     font-family: "ralewayregular",Arial ,Sans-Serif;
     margin:0;
     padding:0;
+    font-family: 'Raleway', sans-serif;
     
     
 }
-header
+.header
 {
     display:flex;
      justify-content: flex-end;
@@ -68,7 +66,7 @@ a{
     margin-right:3.5em;
     flex-shrink: 0;
     color:#0065fc;
-    font-weight: bolder;
+    font-weight: bold;
 }
 .inscription:hover
 {
@@ -147,9 +145,11 @@ form .rechercher
 .searchbar:active
 {
     border:solid 1px black;
+
 }
-/*fonts/
+
 /*-------------*/
+/*fonts section1*/
 
 .section1 h1
 {font-size:1.5em;
@@ -159,11 +159,13 @@ font-weight:bold;
 .section1 h2{
     font-size:1em;
     font-weight:bold;
+
 }
 .section1 h3
 {
     font-size:1em;
-    font-weight:lighter
+    font-weight:400;
+
 }
 /*Filtres*/
 .zone-filtres 
@@ -171,7 +173,6 @@ font-weight:bold;
     flex-direction: row;
     justify-content:left;
 
-    
 }
 
 .zone-filtres h2
@@ -187,6 +188,7 @@ font-weight:bold;
     flex-direction:row;
     margin-left:4.5em;
     flex-wrap: wrap;
+
 }
 .filtres div
 {
@@ -202,8 +204,6 @@ font-weight:bold;
     padding-right:2em;
     height:3.4em;
     font-weight: bold;
-
-    
 
 }
 .filtres div:hover
@@ -243,11 +243,9 @@ font-weight:bold;
 {
     display:flex;
     flex-direction:row;
-    margin:auto;
- margin-top:2em;
+    
+    margin-top:2em;
 
-    
-    
 }
 
 .info i
@@ -260,13 +258,48 @@ font-weight:bold;
     color:#0065fc;
     align-items: center;
     justify-content:center;
-    margin-top:0.75em
+    margin-top:0.75em;
     
 }
 .info h3
 {
     margin-left:1.5em;
+    font-weight: lighter;
+
+}
+/*box hébergement*/
+#hébergements
+{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    height: 627px;
+    margin-top: 0;
     
-    
+}
+
+.hébergements-marseille
+{
+    display:flex;
+    flex-direction: row;;
+    margin-top:3em;
+    margin-left:3em;
+    background:#f2f2f2;
+    height: 627px;;
+    width:62%;
+    border-radius: 1.3em;
+}
+
+.populaires
+{
+    display:flex;
+    flex-direction: row;
+    margin-top: 3em;
+    margin-left: 3em;
+    margin-right: 3em;
+    background-color: #f2f2f2;
+    border-radius:1.3em;
+    width:30%;
+    height: 627px;
 }
 

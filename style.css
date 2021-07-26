@@ -1,3 +1,4 @@
+/*changer de version a 1040px*/
 body{
     font-family: "ralewayregular",Arial ,Sans-Serif;
     margin:0;
@@ -30,7 +31,7 @@ ul
 h4 {
     display: block;
     margin-block-start: 0;
-    margin-block-end: 0;
+    margin-block-end: 0.5em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
@@ -38,7 +39,7 @@ h4 {
 p {
     display: block;
     margin-block-start: 0em;
-    margin-block-end: 0em;
+    margin-block-end: 0.5em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
@@ -316,9 +317,9 @@ font-weight:bold;
     display:flex;
     flex-direction: row;
     width:100%;
-    height: 627px;
+    height: fit-content;
     margin-top: 0;
-    margin-bottom: 8em;
+    
     
 }
 /*hèbergement à Marseille*/
@@ -330,7 +331,7 @@ font-weight:bold;
     margin-top:2em;
     margin-left:3em;
     background:#f2f2f2;
-    height: fit-content;
+    height:668px;
     width:62%;
     border-radius: 1.3em;
    
@@ -343,7 +344,7 @@ font-weight:bold;
     flex-wrap:wrap;
     justify-content:center;
     margin-right: 1em;
-    margin-bottom:3em
+    margin-bottom:3em;
 }
 
 .hébergements-marseille h2
@@ -354,20 +355,19 @@ font-weight:bold;
 .hébergements-marseille h3
 {
     margin-left: 1.5em;
-    margin-top:2em;
+    margin-top:1em;
 }
 
 .cards-marseille
 {
     display:flex;
     flex-direction:column;
-    width:30%;
+    width: 28%;
     margin-top:2em;
-    margin-left:1.2em;
-    border-radius:2em 2em 2em 2em;
-    background:white ;
-    height:fit-content;
-    text-align: center;
+    margin-left:1.5em;
+    border-radius:1em 1em 1em 1em;
+    background:white;
+    height:200px;
     box-shadow: 0 0 2em #949090b4;
 }
 .cards-marseille:hover
@@ -376,26 +376,29 @@ font-weight:bold;
 }
 .cards-marseille img
 {
-    width:95%;
+
+    
+    width: 96%;
     height:114px;
-    border-radius:2em 2em 0 0;
-    padding-top:2.5%;
-    margin:0;
+    border-radius:1em 1em 0 0;
+    padding-top:1.5%;
+    display:flex;
+    margin-left:auto;
+    margin-right:auto
+}
+.cards-marseille img:hover   
+{
+    width:98%;
+    height:118px;
+    border-radius:1em 1em 1em 1em;
+    
 
 }
-.cards-marseille img:hover
-{
-    width:97%;
-    height:116px;
-    border-radius:2em 2em 0 0;
-    padding-top:2.5%;
-    margin:0;
 
-}
-.hotel
+.cards-marseille .hotel
 {
-    margin:0%;
-    white-space: nowrap;
+    margin-left:1em;
+    
 }
 .hotel:hover
 {
@@ -406,14 +409,80 @@ font-weight:bold;
 .populaires
 {
     display:flex;
-    flex-direction: row;
+    flex-direction:column;
     margin-top: 2em;
     margin-left: 3em;
     margin-right: 3em;
     background-color: #f2f2f2;
     border-radius:1.3em;
-    width:30%;
-    height:fit-content;
+    width:29%;
+    height:668px;
+    
+
+}
+
+.populaires .populaire-title
+{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  margin-right:1.5em;
+  margin-left:1.5em;
+  margin-top:2em;
+}
+ .populaires-cards
+{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-bottom:3em;
+}
+ .cards-populaires
+{
+     display:flex;
+     flex-direction:row;
+     width: 82%;
+     margin-top:2em;
+     margin-left: 2.3em;
+     border-radius:1em 1em 1em 1em;
+     background:white;
+     height: 141px;
+     box-shadow: 0 0 2em #949090b4;
+     
+}
+.cards-populaires:hover
+{
+    box-shadow: 0 0 2em black;
+}
+
+.cards-populaires img {
+    display: flex;
+    justify-content: center;
+    width: 135px;
+    height: 135px;
+    border-radius: 1em 0 0 1em;
+    margin: 2.5%;
+}
+.cards-populaires img:hover
+{
+    
+    
+    width: 138px;
+    height: 138px;
+    border-radius: 1em 1em 1em 1em;
+    margin: 2.5%;
+}
+
+.cards-populaires .hotel
+{
+    display:flex;
+    flex-direction:column;
+    width: 60%;
+    justify-content: space-between;
+    margin:1em;
+    flex-wrap: nowrap;
+    
 }
 /*box Activité*/
 #activités

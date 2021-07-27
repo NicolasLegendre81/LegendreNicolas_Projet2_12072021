@@ -495,7 +495,7 @@ font-weight:bold;
 {
     display: flex;
     flex-direction:column;
-    width:100%;
+    width:92%;
     height:600px;
     margin-left:3.5em;
     margin-right:3.5em;
@@ -507,6 +507,8 @@ font-weight:bold;
     margin-top: 0.5em;
     display:flex;
     flex-direction: row;
+    justify-content: space-between;
+    
 }
 .big-cards
 {

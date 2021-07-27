@@ -494,14 +494,90 @@ font-weight:bold;
 #activités
 {
     display: flex;
-    flex-direction:row;
-    width:92%;
+    flex-direction:column;
+    width:100%;
     height:600px;
     margin-left:3.5em;
     margin-right:3.5em;
     margin-top:2em;
+    
+}
+.activity-cards
+{
+    margin-top: 0.5em;
+    display:flex;
+    flex-direction: row;
+}
+.big-cards
+{
+   background: white; 
+   height:446px;
+   width:21%;
+   box-shadow: 0 0 1em #949090b4;
+   border-radius:1em 1em;
+   
+}
+.big-cards p
+{
+    margin-left: 1.5em;
+    margin-top:1em;
+    
 }
 
+.big-cards img
+{
+    height: 386px;
+    width: 100%;
+    border-radius:1em 1em 0 0;
+}
+.small-cards
+{
+    display:flex;
+    flex-direction:column;
+    height:446px;
+    width:21%;
+    justify-content: space-between;
+}
+.pomegues
+{
+    background:white;
+    height: 237px;
+    width:100%;
+    border-radius:1em 1em;
+    box-shadow: 0 0 1em #949090b4;
+}
+.pomegues img
+{
+    height:181px;
+    width:100%;
+    border-radius:1em 1em 0 0;
+}
+.pomegues p
+{
+    margin-left:1.5em;
+    margin-top:1em;
+
+}
+.frioul
+{
+    background: white;
+    height:167px;
+    width:100%;
+    border-radius:1em 1em;
+    box-shadow: 0 0 1em #949090b4;
+
+}
+.frioul img
+{
+    height:110px;
+    width:100%;
+    border-radius:1em 1em 0 0;
+}
+.frioul p
+{
+    margin-left:1.5em;
+    margin-top:1em;
+}
 /*footer*/
 .footer
 {
@@ -517,7 +593,6 @@ font-weight:bold;
 }
 footer ul
 {
-    margin-block-start:0;
     margin-top: 1em;
 }
 footer li

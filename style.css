@@ -28,21 +28,19 @@ ul
    padding:0;
    margin-bottom: 0;
 }
-h4 {
+h4 
+{
     display: block;
-    margin-block-start: 0;
-    margin-block-end: 0.5em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-bottom: 0.5em;
+    margin-top:0;
     font-weight: bold;
 }
-p {
+p 
+{
     display: block;
-    margin-block-start: 0em;
-    margin-block-end: 0.5em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
+    margin-top:0;
+    margin-bottom: 0.5em;
+ }
 /*couleurs  des étoiles*/
 .fa-star
 {
@@ -421,7 +419,7 @@ font-weight:bold;
 
 }
 
-.populaires .populaire-title
+.populaire-title
 {
   display:flex;
   flex-direction:row;
@@ -430,6 +428,14 @@ font-weight:bold;
   margin-left:1.5em;
   margin-top:2em;
 }
+
+.populaire-title strong
+{   
+    display: flex;
+    font-size:20px;
+    margin-top:1em;
+}
+
  .populaires-cards
 {
     display:flex;
@@ -507,7 +513,7 @@ font-weight:bold;
 }
 .footer h5
 {
-    margin-block-end:0;
+    margin-bottom:0;
 }
 footer ul
 {
@@ -524,6 +530,7 @@ footer li
     flex-direction: column;
     justify-content:center;
     margin-left:3.5em;
+    margin-top:1.5em;
     width:33.3%;
     
 }

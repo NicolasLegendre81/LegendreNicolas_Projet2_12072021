@@ -377,6 +377,7 @@ font-weight:bold;
 
     
     width: 96%;
+    object-fit: cover;
     height:114px;
     border-radius:1em 1em 0 0;
     padding-top:1.5%;
@@ -387,6 +388,7 @@ font-weight:bold;
 .cards-marseille img:hover   
 {
     width:98%;
+    object-fit: cover;
     height:118px;
     border-radius:1em 1em 1em 1em;
     
@@ -465,6 +467,7 @@ font-weight:bold;
 .cards-populaires img {
     display: flex;
     justify-content: center;
+    object-fit: cover;
     width: 135px;
     height: 135px;
     border-radius: 1em 0 0 1em;
@@ -529,6 +532,7 @@ font-weight:bold;
 .big-cards img
 {
     height: 386px;
+    object-fit: cover;
     width: 100%;
     border-radius:1em 1em 0 0;
 }
@@ -551,6 +555,7 @@ font-weight:bold;
 .pomegues img
 {
     height:181px;
+    object-fit: cover;
     width:100%;
     border-radius:1em 1em 0 0;
 }
@@ -572,6 +577,7 @@ font-weight:bold;
 .frioul img
 {
     height:110px;
+    object-fit: cover;
     width:100%;
     border-radius:1em 1em 0 0;
 }

@@ -586,6 +586,45 @@ font-weight:bold;
     margin-left:1.5em;
     margin-top:1em;
 }
+.notre-dame
+{
+    background: white;
+    height:195px;
+    border-radius: 1em 1em;
+    box-shadow: 0 0 1em #949090b4;
+}
+.notre-dame img
+{
+    height:139px;
+    object-fit: cover;
+    width:100%;
+    border-radius: 1em 1em 0 0;
+
+}
+.notre-dame p
+{
+    margin-left:1.5em;
+    margin-top:1em;
+}
+.parc-longchamp
+{
+    background:white;
+    height:210px;
+    border-radius:1em 1em;
+    box-shadow: 0 0 1em #949090b4;
+}
+.parc-longchamp img
+{
+    height:153px;
+    object-fit: cover;
+    width:100%;
+    border-radius:1em 1em 0 0;
+}
+.parc-longchamp p
+{
+    margin-left:1.5em;
+    margin-top:1em;
+}
 /*footer*/
 .footer
 {

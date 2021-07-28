@@ -354,6 +354,11 @@ font-weight:bold;
 {
     margin-left: 1.5em;
     margin-top:1em;
+    cursor: pointer;
+}
+.hébergements-marseille h3:hover
+{
+    color: #0065fc;
 }
 
 .cards-marseille
@@ -522,6 +527,10 @@ font-weight:bold;
    border-radius:1em 1em;
    
 }
+.big-cards:hover
+{
+    box-shadow:0 0 2em black;
+}
 .big-cards p
 {
     margin-left: 1.5em;
@@ -552,6 +561,10 @@ font-weight:bold;
     border-radius:1em 1em;
     box-shadow: 0 0 1em #949090b4;
 }
+.pomegues:hover
+{
+    box-shadow:0 0 2em black;
+}
 .pomegues img
 {
     height:181px;
@@ -574,6 +587,10 @@ font-weight:bold;
     box-shadow: 0 0 1em #949090b4;
 
 }
+.frioul:hover
+{
+    box-shadow:0 0 2em black;
+}
 .frioul img
 {
     height:110px;
@@ -592,6 +609,10 @@ font-weight:bold;
     height:195px;
     border-radius: 1em 1em;
     box-shadow: 0 0 1em #949090b4;
+}
+.notre-dame:hover
+{
+    box-shadow:0 0 2em black;
 }
 .notre-dame img
 {
@@ -612,6 +633,10 @@ font-weight:bold;
     height:210px;
     border-radius:1em 1em;
     box-shadow: 0 0 1em #949090b4;
+}
+.parc-longchamp:hover
+{
+    box-shadow:0 0 2em black;
 }
 .parc-longchamp img
 {
@@ -642,9 +667,14 @@ footer ul
 {
     margin-top: 1em;
 }
+
 footer li
 {
     margin-bottom: 0.5em;
+}
+.footer a:hover
+{
+    color: #0065fc;
 }
 .a-propos
 {

@@ -1,25 +1,34 @@
-/*changer de version a 1040px*/
+
 body{
     font-family: "ralewayregular",Arial ,Sans-Serif;
     margin:0;
     padding:0;
     font-family: 'Raleway', sans-serif;
     
-    
 }
+@media screen and (max-width: 1340px)
+{
+    body
+    {
+        font-size: 0.8em;
+    }
+    .fa-star
+    {
+        font-size:0.8em;
+    }
+}
+    
+
 .header
 {
     display:flex;
     width:100%;
-
-    
 
 }
 
 a{
     text-decoration: none;
     color:inherit;
-    
     
 }
 ul
@@ -41,7 +50,8 @@ p
     margin-top:0;
     margin-bottom: 0.5em;
  }
-/*couleurs  des étoiles*/
+
+/*les étoiles*/
 .fa-star
 {
     color:#0065fc;
@@ -333,7 +343,6 @@ font-weight:bold;
     width:62%;
     border-radius: 1.3em;
    
-   
 }
 .hébergement-cards
 {
@@ -397,7 +406,6 @@ font-weight:bold;
     height:118px;
     border-radius:1em 1em 1em 1em;
     
-
 }
 
 .cards-marseille .hotel
@@ -423,7 +431,6 @@ font-weight:bold;
     width:29%;
     height:668px;
     
-
 }
 
 .populaire-title
@@ -453,15 +460,15 @@ font-weight:bold;
 }
  .cards-populaires
 {
-     display:flex;
-     flex-direction:row;
-     width: 82%;
-     margin-top:2em;
-     margin-left: 2.3em;
-     border-radius:1em 1em 1em 1em;
-     background:white;
-     height: 141px;
-     box-shadow: 0 0 2em #949090b4;
+    display:flex;
+    flex-direction:row;
+    width: 82%;
+    margin-top:2em;
+    margin-left: 2.3em;
+    border-radius:1em 1em 1em 1em;
+    background:white;
+    height: 141px;
+    box-shadow: 0 0 2em #949090b4;
      
 }
 .cards-populaires:hover
@@ -480,8 +487,6 @@ font-weight:bold;
 }
 .cards-populaires img:hover
 {
-    
-    
     width: 138px;
     height: 138px;
     border-radius: 1em 1em 1em 1em;
@@ -576,7 +581,6 @@ font-weight:bold;
 {
     margin-left:1.5em;
     margin-top:1em;
-
 }
 .frioul
 {

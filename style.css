@@ -17,7 +17,18 @@ body{
         font-size:0.8em;
     }
 }
-    
+@media screen and (max-width:1040px)
+{
+    body
+    {
+        font-size:0.7em;
+    }
+    .fa-star
+    {
+        font-size:0.7;
+    }
+}
+
 
 .header
 {
@@ -467,7 +478,8 @@ font-weight:bold;
     margin-left: 2.3em;
     border-radius:1em 1em 1em 1em;
     background:white;
-    height: 141px;
+   max-height: 141px;
+   min-height:131px;
     box-shadow: 0 0 2em #949090b4;
      
 }
@@ -480,8 +492,10 @@ font-weight:bold;
     display: flex;
     justify-content: center;
     object-fit: cover;
-    width: 135px;
-    height: 135px;
+    max-width: 135px;
+    max-height: 135px;
+    min-width:125px;
+    min-height:125px;
     border-radius: 1em 0 0 1em;
     margin: 2.5%;
 }
@@ -653,6 +667,78 @@ font-weight:bold;
 {
     margin-left:1.5em;
     margin-top:1em;
+}
+@media screen and (max-width: 1340px)
+{
+
+    .Reservia
+    { 
+    margin-left:2em;
+
+    }
+    .inscription
+    {
+        margin-right:2em;
+    }
+    .section1
+    {
+        margin-left:2em;
+    }
+    .hébergements-marseille
+    {
+        margin-left:2em;
+        width:auto;
+    }
+    .populaires
+    {
+        margin-left:2em;
+        margin-right: 2em;
+        width:40%;
+    }
+    #activités
+    {
+        margin-left:2em;
+        margin-right:2em;
+        width:auto;
+    }
+}
+@media screen and (max-width:1040px)
+{
+    .cards-populaires img
+    {
+        width:125px;
+        height:125px;
+    }
+    .Reservia
+    { 
+    margin-left:1em;
+
+    }
+    .inscription
+    {
+        margin-right:1em;
+    }
+    .section1
+    {
+        margin-left:1em;
+    }
+    .hébergements-marseille
+    {
+        margin-left:1em;
+        width:auto;
+    }
+    .populaires
+    {
+        margin-left:1em;
+        margin-right: 1em;
+        width:40%;
+    }
+    #activités
+    {
+        margin-left:1em;
+        margin-right:1em;
+        width:auto;
+    }
 }
 /*footer*/
 .footer

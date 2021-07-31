@@ -210,6 +210,10 @@ form .rechercher
     border:solid 1px black;
 
 }
+.loupe
+{
+    display:none;
+}
 
 /*-------------*/
 /*fonts section1*/
@@ -227,7 +231,7 @@ font-weight:bold;
 .section1 h3
 {
     font-size:1em;
-    font-weight:400;
+    font-weight:500;
 
 }
 /*Filtres*/
@@ -668,6 +672,7 @@ font-weight:bold;
     margin-left:1.5em;
     margin-top:1em;
 }
+/*responsive*/
 @media screen and (max-width: 1340px)
 {
 
@@ -737,6 +742,58 @@ font-weight:bold;
     {
         margin-left:1em;
         margin-right:1em;
+        width:auto;
+    }
+}
+@media screen and (max-width:998px)
+{
+    .texte-rechercher
+    {
+        display:none;
+    }
+    .loupe
+    {
+        display:flex;
+    }
+    form .rechercher
+    {
+    height: 53px;
+    width: 50px;
+    }
+    .barre-de-recherche
+    {
+        display:flex;
+        justify-content:center;
+
+    }
+    .zone-filtres 
+    {
+        display:flex;
+        flex-direction:column;
+    }
+    #hébergements
+    {
+        display:flex;
+        flex-direction:column-reverse;
+    }
+    .populaires
+    {
+        width:auto;
+        height:fit-content;
+    }
+    .hébergements-marseille
+    {
+        width:auto;
+        height:fit-content;
+    }
+    .hébergement-cards
+    {
+        display:flex;
+        flex-direction:column;
+
+    }
+    .cards-marseille
+    {
         width:auto;
     }
 }

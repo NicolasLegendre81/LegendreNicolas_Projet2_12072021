@@ -738,13 +738,19 @@ font-weight:bold;
          width:100%;
          margin:0;
       }
-       .navigation a
-       {
-           margin:0;
-           display:flex;
-           justify-content:center;
-           width:100%;
-
+      .navigation a
+      {
+          margin:0;
+          display:flex;
+          justify-content:center;
+          width:100%;
+          border-bottom:#f2f2f2 solid 3px
+      }
+       .navigation a:hover
+       {   
+           border-top:none;
+           border-bottom: #0065fc solid 3px;
+           color:#0065fc ;
        }
     .inscription
     {   display:flex;

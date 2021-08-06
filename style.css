@@ -103,22 +103,21 @@ p
 }
 .Reservia
 {
+    display:flex;
+    flex-wrap: nowrap;
     cursor: pointer;
     margin-right:auto;
     margin-top:2em;
-    width:6em;
-    display:flex;
-    flex-wrap: nowrap;
     margin-left:3.5em;
-
+    width:6em;
 }
+
 /*menu*/
 .navigation
 {
     display: flex;
-    flex-direction:raw;
     flex-wrap: nowrap;
-    margin-right:3em;
+    padding-right:3em;
 }
 
 .navigation a
@@ -135,6 +134,7 @@ p
     border-top: #0065fc solid 2px;
     color:#0065fc ;
 }
+
 .navigation a:active
 {
  border-top:cyan solid 1px;
@@ -150,11 +150,13 @@ p
     color:#0065fc;
     font-weight: bold;
 }
+
 .inscription:hover
 {
     border-top: #0065fc solid 2px;
     color:rgb(14, 111, 190);
 }
+
 .inscription:active
 {
   border-top: cyan solid 1px;  
@@ -169,6 +171,7 @@ p
     margin-left: 3.5em;
     margin-top: 1em;
 }
+
 .barre-de-recherche
 {
     display: flex;
@@ -176,6 +179,7 @@ p
     height: 53px;
     padding: 19px 6px 6px 1px;
 }
+
 .marseille
 {
     width: 12%;
@@ -184,21 +188,25 @@ p
     padding: 0px 12px;
     border: #f2f2f2 solid 1px;
 }
+
 .rechercher 
 {
     font-size: 1.2em;
     text-decoration: none;
     color: white;
 }
+
 .rechercher:hover
 {
     background-color: lightslategray;
     color: #0065fc;
 }
+
 .rechercher:active
 {
     border:solid 1px black;
 }
+
 form .rechercher
 {
     border-radius: 0px 12px 12px 0px;
@@ -209,6 +217,7 @@ form .rechercher
     width: 137px;
     justify-content: center;
  }
+
 .searchbar
 {
     color:black;
@@ -220,15 +229,17 @@ form .rechercher
     justify-content: center;
     display: flex;
  }
+
 .searchbar:hover
 {
     color:#0065fc;
 }
+
 .searchbar:active
 {
     border:solid 1px black;
-
 }
+
 .loupe
 {
     display:none;
@@ -238,27 +249,29 @@ form .rechercher
 /*fonts section1*/
 
 .section1 h1
-{font-size:1.5em;
-font-weight:bold;
-
+{
+    font-size:1.5em;
+    font-weight:bold;
 }
-.section1 h2{
+
+.section1 h2
+{
     font-size:1em;
     font-weight:bold;
-
 }
+
 .section1 h3
 {
     font-size:1em;
     font-weight:500;
-
 }
+
 /*Filtres*/
 .zone-filtres 
-{   display:flex ;
+{   
+    display:flex ;
     flex-direction: row;
     justify-content:left;
-
 }
 
 .zone-filtres h2
@@ -266,16 +279,16 @@ font-weight:bold;
     padding-top:2.5em;
     margin-right:3%;
     margin-bottom:2%;
-
 }
+
 .filtres
 {
     display:flex;
     flex-direction:row;
     margin-left:4.5em;
     flex-wrap: wrap;
-
 }
+
 .filtres div
 {
     display: flex;
@@ -290,8 +303,8 @@ font-weight:bold;
     padding-right:2em;
     height:3.4em;
     font-weight: bold;
-
 }
+
 .filtres div:hover
 {
     background:linear-gradient(to bottom,#9dbff1 5%,#DEEBFF 100%);
@@ -299,13 +312,13 @@ font-weight:bold;
     border: 1px solid rgb(124, 189, 241);
     border-left:none;
 }
+
 .filtres div:active
 {
     background: linear-gradient(to top,#DEEBFF 15%,#9dbff1 100%);
     color:grey;
     border:1px solid black;
     border-left:none;
-    
 }
 
 .filtres i
@@ -322,15 +335,14 @@ font-weight:bold;
     color: #0065fc;
     flex-wrap:wrap;
     margin-right:1em;
-
 }
+
 /*cercle info*/
 .info
 {
     display:flex;
     flex-direction:row;
     margin-top:2em;
-
 }
 
 .info i
@@ -344,14 +356,14 @@ font-weight:bold;
     align-items: center;
     justify-content:center;
     margin-top:0.75em;
-    
 }
+
 .info h3
 {
     margin-left:1.5em;
     font-weight: lighter;
-
 }
+
 /*box hébergement*/
 #hébergements
 {
@@ -361,8 +373,8 @@ font-weight:bold;
     justify-content:space-evenly;
     height: auto;
     margin-top: 0;
-    
 }
+
 /*hèbergement à Marseille*/
 
 .hébergements-marseille
@@ -375,6 +387,7 @@ font-weight:bold;
     width:62%;
     border-radius: 1.3em;
 }
+
 .hébergement-cards
 {
     display:flex;
@@ -389,12 +402,14 @@ font-weight:bold;
     margin-left:1.5em;
     margin-top:2em;
 }
+
 .hébergements-marseille h3
 {
     margin-left: 1.5em;
-    margin-top:1em;
+    margin-top:2em;
     cursor: pointer;
 }
+
 .hébergements-marseille h3:hover
 {
     color: #0065fc;
@@ -411,13 +426,13 @@ font-weight:bold;
     height:200px;
     box-shadow: 0 0 2em #949090b4;
     padding:2px;
-    
-
 }
+
 .cards-marseille:hover
 {
     box-shadow: 0 0 2em black; 
 }
+
 .cards-marseille img
 {
     display:flex;
@@ -435,7 +450,6 @@ font-weight:bold;
     margin:auto;
     height:118px;
     border-radius:1em 1em 1em 1em;
-    
 }
 
 .cards-marseille .hotel
@@ -527,8 +541,8 @@ font-weight:bold;
     width: 60%;
     margin-left:1em;
     flex-wrap: nowrap;
-
 }
+
 .cards-populaires .fa-star
 {
    margin-top:1em
@@ -585,6 +599,7 @@ font-weight:bold;
     width: 100%;
     border-radius:1em 1em 0 0;
 }
+
 .small-cards
 {
     display:flex;
@@ -593,6 +608,7 @@ font-weight:bold;
     width:21%;
     justify-content: space-between;
 }
+
 .pomegues
 {
     background:white;
@@ -601,10 +617,12 @@ font-weight:bold;
     border-radius:1em 1em;
     box-shadow: 0 0 1em #949090b4;
 }
+
 .pomegues:hover
 {
     box-shadow:0 0 2em black;
 }
+
 .pomegues img
 {
     height:181px;
@@ -612,6 +630,7 @@ font-weight:bold;
     width:100%;
     border-radius:1em 1em 0 0;
 }
+
 .pomegues p
 {
     margin-left:1.5em;
@@ -624,12 +643,13 @@ font-weight:bold;
     width:100%;
     border-radius:1em 1em;
     box-shadow: 0 0 1em #949090b4;
-
 }
+
 .frioul:hover
 {
     box-shadow:0 0 2em black;
 }
+
 .frioul img
 {
     height:110px;
@@ -637,11 +657,13 @@ font-weight:bold;
     width:100%;
     border-radius:1em 1em 0 0;
 }
+
 .frioul p
 {
     margin-left:1.5em;
     margin-top:1em;
 }
+
 .notre-dame
 {
     background: white;
@@ -649,22 +671,25 @@ font-weight:bold;
     border-radius: 1em 1em;
     box-shadow: 0 0 1em #949090b4;
 }
+
 .notre-dame:hover
 {
     box-shadow:0 0 2em black;
 }
+
 .notre-dame img
 {
     height:139px;
     width:100%;
     border-radius: 1em 1em 0 0;
-
 }
+
 .notre-dame p
 {
     margin-left:1.5em;
     margin-top:1em;
 }
+
 .parc-longchamp
 {
     background:white;
@@ -672,10 +697,12 @@ font-weight:bold;
     border-radius:1em 1em;
     box-shadow: 0 0 1em #949090b4;
 }
+
 .parc-longchamp:hover
 {
     box-shadow:0 0 2em black;
 }
+
 .parc-longchamp img
 {
     height:153px;
@@ -683,11 +710,13 @@ font-weight:bold;
     width:100%;
     border-radius:1em 1em 0 0;
 }
+
 .parc-longchamp p
 {
     margin-left:1.5em;
     margin-top:1em;
 }
+
 /*responsive*/
 
 @media screen and (max-width:1040px)
@@ -696,6 +725,7 @@ font-weight:bold;
     { 
         margin-left:3em;
     }
+
     .inscription
     {
         margin-right:3em;
@@ -723,14 +753,13 @@ font-weight:bold;
         display:flex;
     }
 
-     .Reservia
+    .Reservia
     { 
-        
         height:3em;
         margin-left:1em;
     }
 
-     .navigation
+    .navigation
      {
          display:flex;
          order:3;
@@ -738,7 +767,8 @@ font-weight:bold;
          width:100%;
          margin:0;
       }
-      .navigation a
+
+    .navigation a
       {
           margin:0;
           display:flex;
@@ -746,12 +776,14 @@ font-weight:bold;
           width:100%;
           border-bottom:#f2f2f2 solid 3px
       }
-       .navigation a:hover
+
+    .navigation a:hover
        {   
            border-top:none;
            border-bottom: #0065fc solid 3px;
            color:#0065fc ;
        }
+
     .inscription
     {   display:flex;
         margin-right:1em;
@@ -762,36 +794,41 @@ font-weight:bold;
       margin-left:1em;
     }
    
-
     .texte-rechercher
     {
         display:none;
     }
+
     .loupe
     {
         display:flex;
     }
+
     form .rechercher
     {
     height: 53px;
     width: 50px;
     }
+
     .barre-de-recherche
     {
         display:flex;
         justify-content:center;
 
     }
+
     .zone-filtres 
     {
         display:flex;
         flex-direction:column;
     }
+
     .filtres
     {  
         margin-left:0;
         font-size:0.8em;
     }
+
     #hébergements
     {
         display:flex;
@@ -799,15 +836,29 @@ font-weight:bold;
         align-items:center;
         width:100%;
     }
+
+    .populaire-title
+    {
+        margin-left:2em;
+        margin-right:2em;
+    }
+
     .populaires
     {
         width:100%;
         height:auto;
     }
+
     .cards-populaires 
     {
         width:90%;
         height:auto;
+    }
+
+    .hébergements-titles
+    {
+        margin-left:2em;
+
     }
     .hébergements-marseille
     {
@@ -815,6 +866,7 @@ font-weight:bold;
         height:auto;
         background:none;
     }
+
     .hébergement-cards
     {
         display:flex;
@@ -822,63 +874,69 @@ font-weight:bold;
         width:100%;
 
     }
+
     .cards-marseille
     {
         width:90%;
         height:200px;
     }
+
+    .hébergements-marseille h3
+    {
+        margin-left:2em;
+    }
+
     .activités-title
     {
         margin-top:1.5em;
-        margin-left:3em;
+        margin-left:2em;
     }
+
     #activités
     {
         display:flex;
         margin-left:0;
         height:auto;
     }
+
     .activity-cards
     {
         display:flex;
         flex-direction:column;
         align-items:center;
      
-     }
-     .big-cards
-     {
-         background:white ;
-         height:200px;
-         width:90%;
-         margin-bottom:2em;
-     }
-     .small-cards
-     {
-         width:100%;
-         display:flex;
-         align-items:center;
-     }
+    }
 
-     
-      .pomegues,.frioul,.notre-dame,.parc-longchamp
-      {
+    .big-cards
+    {
+        background:white ;
+        height:200px;
+        width:90%;
+        margin-bottom:2em;
+    }
+    .small-cards
+    {
+        width:100%;
+        display:flex;
+        align-items:center;
+    }
+    
+    .pomegues,.frioul,.notre-dame,.parc-longchamp
+    {
         margin-bottom:2em;
         background:white ;
         height:200px;
         width:90%;
-
-      }
+    }
       
-
-
-
-     #activités img
-     {
-         height:140px;
-         width:100%;
-     }
+    #activités img
+    {
+        height:140px;
+        width:100%;
+    }
     
 }
+
 /*footer*/
 .footer
 {
@@ -888,10 +946,12 @@ font-weight:bold;
     height:auto ;
     background-color:#f2f2f2;
 }
+
 .footer h5
 {
     margin-bottom:0;
 }
+
 footer ul
 {
     margin-top: 1em;
@@ -901,10 +961,12 @@ footer li
 {
     margin-bottom: 0.5em;
 }
+
 .footer a:hover
 {
     color: #0065fc;
 }
+
 .a-propos
 {
     display: flex;
@@ -913,16 +975,16 @@ footer li
     margin-left:3.5em;
     margin-top:1.5em;
     width:33.3%;
-    
 }
+
 .Nos-hébergements
 {
     display:flex;
     flex-direction: column;
     width:33.3%;
     justify-content:center;
-   
 }
+
 .assistance
 {
     display:flex;
@@ -930,21 +992,20 @@ footer li
     width:33.3%;
     justify-content:center;
 }
+
 @media screen and (max-width:998px)
 { 
     .footer
     {
         display:flex;
         flex-direction:column;
-        
-
     }
+
     .a-propos,.Nos-hébergements,.assistance
     {
         margin-left:2.5em;
         display:flex;
         padding-bottom:2.5em;
         white-space:nowrap;
-
     }
 }

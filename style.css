@@ -771,6 +771,7 @@ form .rechercher
          justify-content:space-evenly;
          width:100%;
          margin:0;
+         padding-right:0;
       }
 
     .navigation a

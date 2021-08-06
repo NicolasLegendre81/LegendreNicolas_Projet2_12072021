@@ -491,6 +491,11 @@ form .rechercher
     margin-top:1em;
 }
 
+.cards-populaires a
+{
+    display:flex;
+}
+
  .populaires-cards
 {
     display:flex;

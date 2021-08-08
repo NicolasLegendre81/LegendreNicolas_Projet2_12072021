@@ -48,7 +48,6 @@ body {
 .header {
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
 }
 
 a {
@@ -63,14 +62,12 @@ ul {
 }
 
 h4 {
-    display: block;
     margin-bottom: 0.5em;
     margin-top: 0;
     font-weight: bold;
 }
 
 p {
-    display: block;
     margin-top: 0;
     margin-bottom: 0.5em;
 }
@@ -87,16 +84,12 @@ p {
 
 /*logo*/
 .logo {
-    display: flex;
-    flex-direction: row;
     width: 100%;
 }
 
 .Reservia {
     display: flex;
-    flex-wrap: nowrap;
     cursor: pointer;
-    margin-right: auto;
     margin-top: 2em;
     margin-left: 3.5em;
     width: 6em;
@@ -105,12 +98,11 @@ p {
 /*menu*/
 .navigation {
     display: flex;
-    flex-wrap: nowrap;
     padding-right: 3em;
 }
 
 .navigation a {
-    display: flex;
+    display:flex;
     flex-direction: row;
     flex-wrap: nowrap;
     padding: 0 20px;
@@ -190,20 +182,20 @@ form .rechercher {
     background-color: #0065fc;
     display: flex;
     align-items: center;
+     justify-content: center;
     height: 53px;
     width: 137px;
-    justify-content: center;
 }
 
 .searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: black;
     background-color: #f2f2f2;
     width: 51px;
     height: 53px;
     border-radius: 12px 0px 0px 12px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
 }
 
 .searchbar:hover {
@@ -296,7 +288,6 @@ form .rechercher {
     justify-content: center;
     text-align: center;
     color: #0065fc;
-    flex-wrap: wrap;
     margin-right: 1em;
 }
 
@@ -308,7 +299,7 @@ form .rechercher {
 }
 
 .info i {
-    display: flex;
+    display:flex;
     border: 2px solid#d9d9d9;
     height: 1.5em;
     width: 1.5em;
@@ -431,7 +422,7 @@ form .rechercher {
 }
 
 .populaire-title strong {
-    display: flex;
+    display:flex;
     font-size: 20px;
     margin-top: 1em;
 }
@@ -504,7 +495,7 @@ form .rechercher {
 }
 
 .activités-title {
-    display: flex;
+    
     margin-left: 3.5em;
 }
 
@@ -668,8 +659,7 @@ form .rechercher {
 
     .logo {
         width: 50%;
-        display: flex;
-    }
+      }
 
     .Reservia {
         height: 3em;
@@ -679,14 +669,13 @@ form .rechercher {
     .navigation {
         display: flex;
         order: 3;
-        justify-content: space-evenly;
+        justify-content: space-between;
         width: 100%;
         margin: 0;
         padding-right: 0;
     }
 
     .navigation a {
-        margin: 0;
         display: flex;
         justify-content: center;
         width: 100%;
@@ -700,7 +689,7 @@ form .rechercher {
     }
 
     .inscription {
-        display: flex;
+       
         margin-right: 1em;
     }
 
@@ -789,7 +778,6 @@ form .rechercher {
     }
 
     #activités {
-        display: flex;
         margin-left: 0;
         height: auto;
     }
@@ -889,7 +877,6 @@ footer li {
     .Nos-hébergements,
     .assistance {
         margin-left: 2.5em;
-        display: flex;
         padding-bottom: 2.5em;
         white-space: nowrap;
     }

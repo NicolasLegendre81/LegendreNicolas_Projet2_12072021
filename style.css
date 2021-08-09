@@ -1,8 +1,7 @@
 body {
-    font-family: "ralewayregular", Arial, Sans-Serif;
     margin: 0;
     padding: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif,Arial;
 }
 
 @media screen and (max-width: 1340px) {
@@ -182,7 +181,7 @@ form .rechercher {
     background-color: #0065fc;
     display: flex;
     align-items: center;
-     justify-content: center;
+    justify-content: center;
     height: 53px;
     width: 137px;
 }
@@ -316,7 +315,7 @@ form .rechercher {
 }
 
 /*box hébergement*/
-#hébergements {
+#hebergements {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -327,7 +326,7 @@ form .rechercher {
 
 /*hèbergement à Marseille*/
 
-.hébergements-marseille {
+.hebergements-marseille {
     display: flex;
     flex-direction: column;
     margin-top: 2em;
@@ -337,7 +336,7 @@ form .rechercher {
     border-radius: 1.3em;
 }
 
-.hébergement-cards {
+.hebergement-cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -345,18 +344,18 @@ form .rechercher {
     justify-content: space-evenly;
 }
 
-.hébergements-titles {
+.hebergements-titles {
     margin-left: 1.5em;
     margin-top: 2em;
 }
 
-.hébergements-marseille h3 {
+.hebergements-marseille h3 {
     margin-left: 1.5em;
     margin-top: 2em;
     cursor: pointer;
 }
 
-.hébergements-marseille h3:hover {
+.hebergements-marseille h3:hover {
     color: #0065fc;
 }
 
@@ -486,7 +485,7 @@ form .rechercher {
 }
 
 /*box Activité*/
-#activités {
+#activites {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -494,7 +493,7 @@ form .rechercher {
     margin-top: 2em;
 }
 
-.activités-title {
+.activites-title {
     
     margin-left: 3.5em;
 }
@@ -725,7 +724,7 @@ form .rechercher {
         font-size: 0.8em;
     }
 
-    #hébergements {
+    #hebergements {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -747,17 +746,17 @@ form .rechercher {
         height: auto;
     }
 
-    .hébergements-titles {
+    .hebergements-titles {
         margin-left: 2em;
     }
 
-    .hébergements-marseille {
+    .hebergements-marseille {
         width: 100%;
         height: auto;
         background: none;
     }
 
-    .hébergement-cards {
+    .hebergement-cards {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -768,16 +767,16 @@ form .rechercher {
         height: 200px;
     }
 
-    .hébergements-marseille h3 {
+    .hebergements-marseille h3 {
         margin-left: 2em;
     }
 
-    .activités-title {
+    .activites-title {
         margin-top: 1.5em;
         margin-left: 2em;
     }
 
-    #activités {
+    #activites {
         margin-left: 0;
         height: auto;
     }
@@ -812,7 +811,7 @@ form .rechercher {
         width: 90%;
     }
 
-    #activités img {
+    #activites img {
         height: 140px;
         width: 100%;
     }
@@ -853,7 +852,7 @@ footer li {
     width: 33.3%;
 }
 
-.Nos-hébergements {
+.Nos-hebergements {
     display: flex;
     flex-direction: column;
     width: 33.3%;
@@ -874,7 +873,7 @@ footer li {
     }
 
     .a-propos,
-    .Nos-hébergements,
+    .Nos-hebergements,
     .assistance {
         margin-left: 2.5em;
         padding-bottom: 2.5em;

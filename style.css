@@ -3,7 +3,6 @@ body {
     padding: 0;
     font-family: 'Raleway', sans-serif,Arial;
 }
-
 @media screen and (max-width: 1340px) {
     body {
         font-size: 0.8em;
@@ -525,7 +524,7 @@ form .rechercher {
 }
 
 .big-cards img {
-    height: 386px;
+    height: 88%;
     object-fit: cover;
     width: 100%;
     border-radius: 1em 1em 0 0;
@@ -552,7 +551,7 @@ form .rechercher {
 }
 
 .pomegues img {
-    height: 181px;
+    height: 78%;
     object-fit: cover;
     width: 100%;
     border-radius: 1em 1em 0 0;
@@ -576,7 +575,7 @@ form .rechercher {
 }
 
 .frioul img {
-    height: 110px;
+    height: 67%;
     object-fit: cover;
     width: 100%;
     border-radius: 1em 1em 0 0;
@@ -599,7 +598,7 @@ form .rechercher {
 }
 
 .notre-dame img {
-    height: 139px;
+    height: 73%;
     width: 100%;
     border-radius: 1em 1em 0 0;
 }
@@ -621,7 +620,7 @@ form .rechercher {
 }
 
 .parc-longchamp img {
-    height: 153px;
+    height: 75%;
     object-fit: cover;
     width: 100%;
     border-radius: 1em 1em 0 0;
@@ -812,7 +811,7 @@ form .rechercher {
     }
 
     #activites img {
-        height: 140px;
+        height: 75%;
         width: 100%;
     }
 

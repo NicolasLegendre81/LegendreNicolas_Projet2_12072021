@@ -289,13 +289,14 @@ form .rechercher {
     margin-right: 1em;
 }
 
-/*cercle info*/
+
 .info {
     display: flex;
     flex-direction: row;
     margin-top: 2em;
+    margin-right: 2em;
 }
-
+/*cercle info*/
 .info i {
     display:flex;
     border: 2px solid#d9d9d9;
@@ -421,7 +422,7 @@ form .rechercher {
 
 .populaire-title strong {
     display:flex;
-    font-size: 20px;
+    font-size: 1.5em;
     margin-top: 1em;
 }
 

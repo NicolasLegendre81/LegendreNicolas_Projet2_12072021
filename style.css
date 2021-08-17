@@ -260,6 +260,7 @@ form .rechercher {
     padding-right: 2em;
     height: 3.4em;
     font-weight: bold;
+    cursor:pointer;
 }
 button{
     padding:0;
@@ -280,17 +281,18 @@ button{
 }
 
 .filtres button i {
+    display: flex;
+    flex-direction: row;
     background-color: #DEEBFF;
     border-radius: 100%;
     height: 3.5em;
     width: 3.5em;
-    display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: #0065fc;
     margin-right: 1em;
+    cursor: pointer;
 }
 
 
@@ -591,6 +593,7 @@ button{
     height: 73%;
     width: 100%;
     border-radius: 1em 1em 0 0;
+    object-fit: cover;
 }
 
 .notre-dame p {

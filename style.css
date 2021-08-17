@@ -152,11 +152,11 @@ p {
     padding: 19px 6px 6px 1px;
 }
 
-.marseille {
-    width: 12%;
-    height: 53px;
+#marseille {
+    width: 232px;
+    height: 50px;
     font-size: 1em;
-    padding: 0px 12px;
+    padding: 0px 10px;
     border: #f2f2f2 solid 1px;
 }
 
@@ -234,7 +234,7 @@ form .rechercher {
 }
 
 .zone-filtres h2 {
-    padding-top: 2.5em;
+    padding-top: 2em;
     margin-right: 3%;
     margin-bottom: 2%;
 }
@@ -246,10 +246,11 @@ form .rechercher {
     flex-wrap: wrap;
 }
 
-.filtres div {
+.filtres button{
     display: flex;
     flex-direction: row;
     border: 2px solid #d9d9d9;
+    background-color: white;
     border-left: none;
     border-radius: 2em;
     align-items: center;
@@ -260,26 +261,29 @@ form .rechercher {
     height: 3.4em;
     font-weight: bold;
 }
+button{
+    padding:0;
+}
 
-.filtres div:hover {
+.filtres button:hover {
     background: linear-gradient(to bottom, #9dbff1 5%, #DEEBFF 100%);
     color: #0065fc;
     border: 1px solid rgb(124, 189, 241);
     border-left: none;
 }
 
-.filtres div:active {
+.filtres button:active {
     background: linear-gradient(to top, #DEEBFF 15%, #9dbff1 100%);
     color: grey;
     border: 1px solid black;
     border-left: none;
 }
 
-.filtres i {
+.filtres button i {
     background-color: #DEEBFF;
     border-radius: 100%;
-    height: 3.7em;
-    width: 3.7em;
+    height: 3.5em;
+    width: 3.5em;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -384,14 +388,6 @@ form .rechercher {
     border-radius: 1em 1em 0 0;
 }
 
-.cards-marseille img:hover {
-    width: 99%;
-    object-fit: cover;
-    margin: auto;
-    height: 118px;
-    border-radius: 1em 1em 1em 1em;
-}
-
 .cards-marseille .hotel {
     margin-left: 1em;
 }
@@ -462,13 +458,6 @@ form .rechercher {
     height: 135px;
     border-radius: 1em 0 0 1em;
     margin: 2px;
-}
-
-.cards-populaires img:hover {
-    width: 138px;
-    height: 137px;
-    border-radius: 1em 1em 1em 1em;
-    margin: 1px;
 }
 
 .cards-populaires .hotel {
@@ -707,11 +696,6 @@ form .rechercher {
     form .rechercher {
         height: 53px;
         width: 50px;
-    }
-
-    .barre-de-recherche {
-        display: flex;
-        justify-content: center;
     }
 
     .zone-filtres {

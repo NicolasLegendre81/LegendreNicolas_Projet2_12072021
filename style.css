@@ -495,6 +495,11 @@ button{
     flex-direction: row;
     justify-content: space-evenly;
 }
+.activity-cards h4 {
+    margin-left: 1.5em;
+    margin-top: 1em;
+    font-weight: bolder;
+}
 
 .big-cards {
     background: white;
@@ -507,12 +512,6 @@ button{
 
 .big-cards:hover {
     box-shadow: 0 0 2em black;
-}
-
-.big-cards p {
-    margin-left: 1.5em;
-    margin-top: 1em;
-
 }
 
 .big-cards img {
@@ -549,11 +548,6 @@ button{
     border-radius: 1em 1em 0 0;
 }
 
-.pomegues p {
-    margin-left: 1.5em;
-    margin-top: 1em;
-}
-
 .frioul {
     background: white;
     height: 167px;
@@ -571,11 +565,6 @@ button{
     object-fit: cover;
     width: 100%;
     border-radius: 1em 1em 0 0;
-}
-
-.frioul p {
-    margin-left: 1.5em;
-    margin-top: 1em;
 }
 
 .notre-dame {
@@ -596,9 +585,10 @@ button{
     object-fit: cover;
 }
 
-.notre-dame p {
+.notre-dame h4 {
     margin-left: 1.5em;
     margin-top: 1em;
+    font-weight: bolder;
 }
 
 .parc-longchamp {
@@ -617,11 +607,6 @@ button{
     object-fit: cover;
     width: 100%;
     border-radius: 1em 1em 0 0;
-}
-
-.parc-longchamp p {
-    margin-left: 1.5em;
-    margin-top: 1em;
 }
 
 /*responsive*/

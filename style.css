@@ -695,6 +695,9 @@ button{
         margin-left: 0;
         font-size: 0.8em;
     }
+    .filtres button {
+        margin-right: 1em;
+    }
 
     #hebergements {
         display: flex;
